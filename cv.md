@@ -11,7 +11,8 @@ discord: Svetlana_b(@b-drel)
 
 ## skills
 1. html
-2. css
+2. css  
+*********************
 
 ## English
 A2
