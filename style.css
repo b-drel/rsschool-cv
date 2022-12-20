@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: Roboto;
     src: url("assets/fonts/Roboto-Light.ttf");
@@ -24,31 +28,77 @@ body {
     box-sizing: border-box;
 }
 
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
+.header-container {
+    position: relative;
+    display: flex;
+}
+
+.header-photo {
+    width: 20%;
+    display: flex;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.header-content {
+    background-color: black;
+    color: azure;
+}
+
 .nav {
-    background-color: burlywood;
+    background-color: black;
 }
 
 
 .nav-list {
     display: flex;
-    align-items: center;
+    align-items:center;
     list-style: none;
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 50px;
+    color: darkorange;
     text-decoration: none;
-    margin: 5px;
+    margin: 2px;
     transition: .3s;
 }
 
 
 a:hover {
-    background: coral;
+    background:darkgray;
 }
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-info {
+    text-align: center;
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: -12px;
+}
+
+.header-hr {
+    width: 350px;
+}
+
+.header-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+
