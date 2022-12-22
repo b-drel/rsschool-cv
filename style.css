@@ -18,7 +18,7 @@ body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+/*     justify-content: space-between; */
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -32,15 +32,17 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    background-color: rgb(43, 40, 40);
 }
 
 .header-container {
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
 .header-photo {
-    width: 20%;
+    width: 10%;
     display: flex;
 }
 
@@ -49,12 +51,8 @@ body {
 }
 
 .header-content {
-    background-color: black;
+/*     background-color: black; */
     color: azure;
-}
-
-.nav {
-    background-color: black;
 }
 
 
@@ -74,13 +72,13 @@ body {
 }
 
 
-a:hover {
+.nav-item :hover {
     background:darkgray;
 }
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
 }
 
 .header-info {
@@ -102,3 +100,126 @@ a:hover {
     font-weight: 400;
 }
 
+.section {
+    display: flex;
+/*     background-color: black; */
+    border: 1px solid chocolate;
+}
+
+.section-left {
+    padding: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.section-left-title {
+    color: chocolate;
+}
+
+.about-me-info {
+    padding: 40px;
+    margin-left: 30px;
+}
+.section-title {
+    color: white;
+}
+
+h3 {
+    color: chocolate;
+}
+
+.key-strengths {
+    padding-left: 15px;
+}
+
+.key-strengths-list {
+    color: white;    
+}
+
+.skills-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.skills-html {
+    background-image: url(./assets/img/icons8-html-5.svg);
+    padding: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+.skills-list-item {
+    color: white;
+    padding: 40px 10px;
+/*     background-repeat: no-repeat; */
+}
+
+.skills-css {
+    background-image: url(./assets/img/icons8-css3.svg);
+    padding: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+.skills-github {
+    background-image: url(./assets/img/icons8-github.svg);
+    padding: 25px 25px;
+    background-repeat: no-repeat;
+
+}
+
+.code-example-right {
+    background-color: rgb(138, 135, 135);
+    border-radius: 3px;
+    width: 70%;
+}
+
+.code-left {
+    padding-top: 180px;
+}
+
+.button {
+    background-color: burlywood;
+    color: black;
+    padding: 20px 60px;
+    text-decoration: none;
+    border-radius: 3px;
+    
+    
+}
+
+.projects-info {
+    margin: 60px;
+}
+
+h4 {
+    color: white;
+}
+
+.education-info {
+    padding: 20px 50px;
+}
+
+.contacts-info-list {
+    padding: 30px 60px;
+}
+
+.footer-icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-icons-item {
+    padding: 25px 25px;
+}
+
+.footer-icons-rsschool-img {
+    width: 48px;
+    height: 48px;
+}
+
+h5 {
+    text-align: center;
+}
